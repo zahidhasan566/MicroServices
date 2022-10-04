@@ -1,0 +1,23 @@
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url("http://dflix.discoveryftp.net/assets/images/bluredhead.jpg?v=1") no-repeat center center;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+.page-loader {
+            display: none;
+            position: fixed;
+            z-index: 100000000;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 255, 255, .8) url('https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.2/images/ajax-loader.gif') 50% 50% no-repeat;
+            opacity: 0.8;
+        }
+.title{
+    color: #ffffff;
+}

@@ -1,0 +1,32 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg") no-repeat center center;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.submit-under, .loader, .loader2, .circle-paper, p.success-dialog, h2.success {
+  visibility: hidden;
+}
+
+.submit-under {
+  background: #8c6e7a;
+  width: 291px;
+  height: 45px;
+  margin-top: -40px;
+  margin-left: -4px;
+  position: absolute;
+  z-index: -1;
+}
+
+.loader, .loader2 {
+  position: absolute;
+  z-index: -5;
+  margin-top: -45px;
+  margin-left: 114px;
+}
+
+

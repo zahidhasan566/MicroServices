@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+ {% block content %}
+ {% load static %}
+  <div class="page-loader"><!-- Place at bottom of page --></div>
+    <div>
+        <div class="wrapper">
+            <div class="title" style="text-align:center;padding: 20px 0;">
+                <h1>What Do You Want</h1>
+                <p> Select Your Option </p>
+            </div>
+
+            <div class="container">
+                <div style="padding: 10px 0">
+                    <div class="row">
+                        <div class="col-md-6" style="">
+                             <a class="btn btn-secondary" href="{% url 'qrcode' %}">
+                                   QR Code with Python
+                                  </a>
+                             <a class="btn btn-secondary" href="{% url 'convert_image_to_pdf' %}">
+                                   Convert Images To pdf
+                                  </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-md-6" style="text-align: end;padding: 20px">
+                            <a class="btn btn-secondary" href="{% url 'youtube_video_download' %}">
+                                                               Youtube video download
+                                                              </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                        </div>
+                         <div class="col-md-6">
+                                 <a class="btn btn-secondary" href="#">
+                                   Send Email using Python
+                                  </a>
+                             <a class="btn btn-secondary" href="#">
+                                   Language Detection
+                                  </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  {% endblock %}
